@@ -1,0 +1,43 @@
+/* Write your CSS here */
+
+.dark-mode-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  height: 100vh;
+}
+
+.light-mode-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  height: 100vh;
+}
+
+.dark-title {
+  font-family: 'roboto';
+  color: #ffffff;
+}
+
+.light-title {
+  font-family: 'roboto';
+  color: #171f46;
+}
+.dark-description {
+  font-family: 'roboto';
+  color: #ffffff;
+}
+
+.light-description {
+  font-family: 'roboto';
+  color: #171f46;
+}
+
+.not-found-img {
+  width: 250px;
+  height: 250px;
+}

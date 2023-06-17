@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.dark-background {
+  background-color: #333333;
+  padding: 5px 20px 5px 20px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 1px 1px 1px 1px #bfbfbf;
+}
+.light-background {
+  background-color: #ffffff;
+  padding: 5px 20px 5px 20px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 1px 1px 1px 1px #bfbfbf;
+}
+
+.dark-mode-sub-container {
+  display: flex;
+  margin-right: 5px;
+  list-style-type: none;
+}
+
+.titles-dark-mode {
+  color: #ffffff;
+  font-family: 'roboto';
+  margin-left: 10px;
+}
+
+.titles-light-mode {
+  color: #171f46;
+  font-family: 'roboto';
+  margin-left: 10px;
+}
+
+.link-items {
+  text-decoration: none;
+}
+
+.custom-logo {
+  width: 60px;
+  height: 60px;
+}
+
+.custom-theme {
+  width: 50px;
+  height: 50px;
+}
+
+.custom-btn {
+  background-color: transparent;
+  border-width: 0;
+}
